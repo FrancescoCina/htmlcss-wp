@@ -23,9 +23,9 @@ body{
 }
 
 .clearfix::after{
-    content:'';
-    clear: both;
+    content:"";
     display: table;
+    clear: both;
 } 
 
 .float-text{
@@ -72,7 +72,6 @@ a{
     color: rgb(133, 128, 128);
 }
 
-
 /* primo blocco  */
 .first-block{
     width: 100%;
@@ -84,7 +83,6 @@ a{
     background-repeat: no-repeat;
     margin: 15px auto;
 }
-
 
 .photo-caption{
     color:white;
@@ -98,7 +96,6 @@ h3{
 p{
     font-size: 14px;
 }
-
  
 /* secondo blocco  */
  .second-block{
@@ -147,25 +144,19 @@ h1{
 
 } 
 
-
 .central{    
     width: calc(60% - 20px);
     height: calc(85% - 10px); 
     float: left;
 }
 
-
-
 .man-drinking{
-        background-image: url(../img/banner-2.jpg);
-        height: 42%;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+    background-image: url(../img/banner-2.jpg);
+    height: 42%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-
-
-
 
 .sidebarright{
     width: 20%;
@@ -183,17 +174,11 @@ h1{
     background-repeat: no-repeat;
 }
 
-
-
-
-
-
 /* blocco del footer  */
 footer{
     width: 100%;
     height: 5%;    
-    /* background-color: purple; */
-    margin-top: 20px;
+    padding-top: 40px;
 }
 
 footer p{
@@ -201,6 +186,5 @@ footer p{
 }
 
 footer span{
-
     color:red;
 }
