@@ -1,0 +1,109 @@
+/* Generics */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;   
+}
+
+ .container{     
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+ }
+
+.lightblue{
+    background-color: lightblue;
+}
+
+/* .clearfix::after{
+    content:'';
+    clear: both;
+    display: table;
+} */
+
+/* Header */
+.main-header{
+    width: 100%;
+    height: 10%;
+    margin: 15px auto;
+    
+}
+
+#logo{
+    padding: 5px 0 0 15px;
+}
+
+/* menu di navigazione  */
+nav{
+    padding-top: 15px;
+}
+
+li{
+    display: inline-block;
+    padding-right: 8px;
+    
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(97, 90, 90);
+}
+
+
+/* primo blocco  */
+.first-block{
+    width: 100%;
+    height: 35%;
+    background-color: yellowgreen;
+    margin: 15px auto;
+}
+ 
+/* secondo blocco  */
+ .second-block{
+    width: 100%;
+    height: 40%;
+    background-color: dodgerblue;
+    margin: 0 auto;
+}
+
+/* header del secondo blocco  */
+.head-secblock{
+    width: 100%;
+    height: 12%;
+    margin-bottom: 10px;
+}
+
+/* blocchi flottati  */
+.sidebarright{
+    width: 20%;
+    height: calc(85% - 10px); 
+    float: right;
+    margin-left: 10px;
+}
+
+.sidebarleft{
+    width: 20%;
+    height: calc(85% - 10px); 
+    float: left;
+    margin-right: 10px;
+}
+
+.central{    
+    width: calc(60% - 20px);
+    height: calc(85% - 10px); 
+    float: left;
+}
+
+/* blocco del footer  */
+footer{
+    width: 100%;
+    height: 5%;    
+    background-color: purple;
+    margin-top: 7px;
+}
