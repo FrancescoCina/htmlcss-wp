@@ -61,7 +61,7 @@ a{
     width: 100%;
     height: 35%;
     background-image: url(../img/banner.jpg);
-    
+    border-radius: 10px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,6 +88,7 @@ p{
 .transparency{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     background-color: rgba(0,0,0,0.2);
 
 }
@@ -108,7 +109,7 @@ p{
 
 
 .head-secblock > div{
-    
+    padding: 25px 0;
 
 }
 
