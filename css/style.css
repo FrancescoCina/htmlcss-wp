@@ -9,6 +9,7 @@ body{
     max-width: 1200px;
     height: 800px;
     margin: 0 auto;   
+    font-family: 'Roboto', sans-serif;
 }
 
  .container{     
@@ -21,11 +22,27 @@ body{
     background-color: lightblue;
 }
 
-/* .clearfix::after{
+.clearfix::after{
     content:'';
     clear: both;
     display: table;
-} */
+} 
+
+.float-text{
+    padding: 10px 0;
+}
+
+.float-text p{
+    color: rgb(133, 128, 128);
+}
+
+.transparency{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2);
+
+}
 
 /* Header */
 .main-header{
@@ -52,7 +69,7 @@ li{
 a{
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(97, 90, 90);
+    color: rgb(133, 128, 128);
 }
 
 
@@ -71,11 +88,7 @@ a{
 
 .photo-caption{
     color:white;
-    padding-top: 165px;
-    /* padding-right:; 
-    padding-bottom:; */
-    padding-left: 25px;    
-
+    padding: 165px 0 0 25px;    
 }
 
 h3{
@@ -85,18 +98,12 @@ h3{
 p{
     font-size: 14px;
 }
-.transparency{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.2);
 
-}
  
 /* secondo blocco  */
  .second-block{
     width: 100%;
-    height: 60%;
+    height: 50%;
     margin: 0 auto;
 }
 
@@ -107,7 +114,6 @@ p{
     margin-bottom: 10px;
 }
 
-
 .head-secblock > div{
     padding: 25px 0;
 
@@ -117,20 +123,30 @@ h1{
     font-size: 25px;
 }
 
-/* blocchi flottati  */
-.sidebarright{
-    width: 20%;
-    height: calc(85% - 10px); 
-    float: right;
-    margin-left: 10px;
+.head-secblock span{
+    color:rgb(133, 128, 128);
+
 }
+/* blocchi flottati  */
+
 
 .sidebarleft{
     width: 20%;
     height: calc(85% - 10px); 
     float: left;
     margin-right: 10px;
+    
 }
+
+.dollar-jar{
+    background-image: url(../img/img-1.jpg);
+    height: 42%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+} 
+
 
 .central{    
     width: calc(60% - 20px);
@@ -138,10 +154,53 @@ h1{
     float: left;
 }
 
+
+
+.man-drinking{
+        background-image: url(../img/banner-2.jpg);
+        height: 42%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+}
+
+
+
+
+.sidebarright{
+    width: 20%;
+    height: calc(85% - 10px); 
+    float: right;
+    margin-left: 10px;
+    
+}
+
+.bulb{
+    background-image: url(../img/img-3.jpg);
+    height: 42%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
 /* blocco del footer  */
 footer{
     width: 100%;
     height: 5%;    
-    background-color: purple;
-    margin-top: 7px;
+    /* background-color: purple; */
+    margin-top: 20px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer span{
+
+    color:red;
 }
