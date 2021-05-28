@@ -7,34 +7,21 @@
 
 body{
     max-width: 1200px;
-    height: 800px;
     margin: 0 auto;   
     font-family: 'Roboto', sans-serif;
 }
 
  .container{     
     width: 80%;
-    height: 100%;
+    /* height: 800px; */
     margin: 0 auto;
  }
-
-.lightblue{
-    background-color: lightblue;
-}
 
 .clearfix::after{
     content:"";
     display: table;
     clear: both;
 } 
-
-.float-text{
-    padding: 10px 0;
-}
-
-.float-text p{
-    color: rgb(133, 128, 128);
-}
 
 .transparency{
     width: 100%;
@@ -44,12 +31,19 @@ body{
 
 }
 
+.float-text{
+    padding: 10px 0;
+}
+
+.float-text p{
+    color: rgb(133, 128, 128);
+}
+
 /* Header */
 .main-header{
     width: 100%;
-    height: 10%;
+    height: 80px;
     margin: 15px auto;
-    
 }
 
 #logo{
@@ -75,7 +69,7 @@ a{
 /* primo blocco  */
 .first-block{
     width: 100%;
-    height: 35%;
+    height: 360px;
     background-image: url(../img/banner.jpg);
     border-radius: 10px;
     background-position: center;
@@ -86,7 +80,7 @@ a{
 
 .photo-caption{
     color:white;
-    padding: 165px 0 0 25px;    
+    padding: 220px 0 0 25px;    
 }
 
 h3{
@@ -98,21 +92,21 @@ p{
 }
  
 /* secondo blocco  */
+.float-items{
+    height: 400px;
+}
  .second-block{
     width: 100%;
-    height: 100%;
+    height: 400px;
     margin: 0 auto;
 }
 
 /* header del secondo blocco  */
 .head-secblock{
     width: 100%;
-    height: 18%;
+    height: 72px;
     margin-bottom: 10px;
-}
-
-.head-secblock > div{
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 h1{
@@ -125,15 +119,9 @@ h1{
 }
 /* blocchi flottati  */
 
-
-.float-items{
-    height: 50%;
-}
-
-
 .sidebarleft{
     width: 20%;
-    height: calc(85% - 10px); 
+    height: 330px; 
     float: left;
     margin-right: 10px;
     
@@ -141,7 +129,7 @@ h1{
 
 .dollar-jar{
     background-image: url(../img/img-1.jpg);
-    height: 42%;
+    height: 138px;
     background-position: center;
     background-size: 90%;
     background-repeat: no-repeat;
@@ -150,13 +138,13 @@ h1{
 
 .central{    
     width: calc(60% - 20px);
-    height: calc(85% - 10px); 
+    height: 330px; 
     float: left;
 }
 
 .man-drinking{
     background-image: url(../img/banner-2.jpg);
-    height: 42%;
+    height: 138px;
     background-position: center;
     background-size: 90%;
     background-repeat: no-repeat;
@@ -164,15 +152,15 @@ h1{
 
 .sidebarright{
     width: 20%;
-    height: calc(85% - 10px); 
-    float: right;
+    height: 330px;  
+    float: left;
     margin-left: 10px;
     
 }
 
 .bulb{
     background-image: url(../img/img-3.jpg);
-    height: 42%;
+    height: 138px;
     background-position: center;
     background-size: 110%;
     background-repeat: no-repeat;
